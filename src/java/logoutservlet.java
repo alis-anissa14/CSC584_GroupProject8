@@ -1,4 +1,4 @@
-package controller;
+package java;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -19,4 +19,5 @@ public class logoutservlet extends HttpServlet {
 
         response.sendRedirect("logout.html");
     }
+
 }
